@@ -111,7 +111,7 @@ glutKeyboardFunc(keyPressed); // Tell GLUT to use the method "keyPressed" for ke
 glutKeyboardUpFunc(keyUp); // Tell GLUT to use the method "keyUp" for key up events  
   
   
-glutMainLoop ();
+glutMainLoop (
 return 0;
 }
 
